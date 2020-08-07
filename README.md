@@ -1,1 +1,1 @@
-# resume-react
+# resume

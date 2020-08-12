@@ -1,16 +1,15 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Button, Avatar } from '@material-ui/core';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import Signiture from '../images/Signature.png';
-import Profile from '../images/IMG_9026.png';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import { Grid, Button } from "@material-ui/core";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import Signiture from "../images/Signature.png";
+import Profile from "../images/IMG_9026.png";
 
 const useStyles = makeStyles({
   grid: {
     marginTop: 80,
-    marginBottom: 50,  
   },
   h1: {
     fontSize: 30,
@@ -18,7 +17,8 @@ const useStyles = makeStyles({
     margin: 0,
   },
   h2: {
-    fontSize: 14,
+    fontSize: 15,
+    margin: 0,
   },
   button: {
     marginRight: 10,
@@ -35,25 +35,50 @@ const useStyles = makeStyles({
 });
 
 export default function Home(props) {
-    const classes = useStyles();
-    return (
-        <div>
-            <Grid className={classes.grid} container>
-                <Grid item xs={5}>
-                    <h1 className={classes.h1}>Hi, I'm Yuchen</h1>
-                    <h2 className={classes.h2}>
-                      I'm a Frontend Developer based on Brisbane, Australia.
-                      My previous experience regarding Information Technology and Interaction Design help me to comprehend the user case from the perspective of both developer and designer :)
-                    </h2>
-                    <img className={classes.signiture} src={Signiture} />
-                    <Button className={classes.button} variant="contained" color="primary" startIcon={<FacebookIcon/>}>Facebook</Button>
-                    <Button className={classes.button} variant="contained" color="primary" startIcon={<GitHubIcon />}>GitHub</Button>
-                    <Button className={classes.button} variant="contained" color="primary" startIcon={<LinkedInIcon />}>LinkedIn</Button>
-                </Grid>
-                <Grid item xs={7}>
-                  <figure><img className={classes.figure} src={Profile}/></figure>
-                </Grid>
-            </Grid>
-        </div>
-    );
+  const classes = useStyles();
+  return (
+    <div>
+      <Grid className={classes.grid} container>
+        <Grid item xs={5}>
+          <h1 className={classes.h1}>Hi, I'm Yuchen</h1>
+          <h2 className={classes.h2}>
+            I'm a Frontend Developer based on Brisbane, Australia. My previous
+            experience regarding Information Technology and Interaction Design
+            help me to comprehend the user case from the perspective of both
+            developer and designer :)
+          </h2>
+          <img className={classes.signiture} src={Signiture} alt="Signiture" />
+          <Button
+            className={classes.button}
+            variant="contained"
+            color="primary"
+            startIcon={<FacebookIcon />}
+          >
+            Facebook
+          </Button>
+          <Button
+            className={classes.button}
+            variant="contained"
+            color="primary"
+            startIcon={<GitHubIcon />}
+          >
+            GitHub
+          </Button>
+          <Button
+            className={classes.button}
+            variant="contained"
+            color="primary"
+            startIcon={<LinkedInIcon />}
+          >
+            LinkedIn
+          </Button>
+        </Grid>
+        <Grid item xs={7}>
+          <figure>
+            <img className={classes.figure} src={Profile} alt="Profile" />
+          </figure>
+        </Grid>
+      </Grid>
+    </div>
+  );
 }

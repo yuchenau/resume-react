@@ -33,8 +33,8 @@ export default function ExperienceTimeline(props) {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
+                    <Typography>Position: Product Operations Intern</Typography>
                     <Typography>Responsibility:</Typography>
-                    <Typography></Typography>
                 </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -46,8 +46,8 @@ export default function ExperienceTimeline(props) {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Typography>Responsibility:</Typography>
-                    <Typography></Typography>
+                    <Typography>Position: Product Manager Intern, Business Analysis Intern</Typography>
+                    <Typography>Responsibility: Design wireframes of a calligraphy learning & teaching application, Manage the content management system of the application</Typography>
                 </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -59,8 +59,8 @@ export default function ExperienceTimeline(props) {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
+                    <Typography>Position: Product Manager Intern, Business Analysis Intern</Typography>
                     <Typography>Responsibility:</Typography>
-                    <Typography></Typography>
                 </TimelineContent>
                 </TimelineItem>
             </Timeline>

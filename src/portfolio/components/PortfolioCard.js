@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography, Grid } from '@material-ui/core';
+import { Card, CardActionArea, CardContent, CardMedia, Typography, Grid, Button } from '@material-ui/core';
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles({
   root: {
@@ -10,6 +11,9 @@ const useStyles = makeStyles({
   media: {
     margin: 5,
   },
+  button: {
+    marginLeft: 20,
+  }
 });
 
 export default function PortfolioCard(props) {
@@ -39,19 +43,12 @@ export default function PortfolioCard(props) {
                     </Typography>
                     {props.icons}
                     </CardContent>
+                    <Button className={classes.button} variant="contained" color="default" startIcon={<GitHubIcon/>}>
+                        View Source Code
+                    </Button>
                 </Grid>
             </Grid>
-            
-            
         </CardActionArea>
-        <CardActions>
-            <Button size="small" color="primary">
-            Share
-            </Button>
-            <Button size="small" color="primary">
-            Learn More
-            </Button>
-        </CardActions>
         </Card>
     );
 }

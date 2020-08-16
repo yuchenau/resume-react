@@ -26,7 +26,7 @@ export default function EducationTimeline(props) {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography color="textPrimary">Courses: Fullstack Developer Courses</Typography>
-            <Typography color="textPrimary">HTML5, CSS3, ECMAScript 6, React, Node.js, Express.js, RESTful API, Postman, etc.</Typography>
+            <Typography color="textPrimary">HTML5, CSS3, ECMAScript 6, React, Redux, Node.js, Express.js, RESTful API, Postman, etc.</Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -41,7 +41,7 @@ export default function EducationTimeline(props) {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography color="textPrimary">Master of Information Technology</Typography>
-            <Typography color="textPrimary">Courses: Software Engineering, Database System, Relational Database System, Web Design, Human-Computer Interaction Discrete Mathematics</Typography>
+            <Typography color="textPrimary">Courses: Software Engineering, Database System, Relational Database System, Advanced Database System, Data Mining, Web Design, Human-Computer Interaction, Discrete Mathematics</Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -55,7 +55,7 @@ export default function EducationTimeline(props) {
           <TimelineOppositeContent>
             <Grid>
                 <Typography color="textPrimary">Bachelor of Arts - Digital Publishing</Typography>
-                <Typography color="textPrimary">Courses: Web Development, JAVA Programming, Digital Publishing, Digital Media Technologies, </Typography>
+                <Typography color="textPrimary">Courses: Web Development, C Programming, JAVA Programming, Computer Networks, Computer Composition Principles, Digital Publishing, Digital Media Technologies</Typography>
             </Grid>
           </TimelineOppositeContent>
           <TimelineSeparator>

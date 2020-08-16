@@ -12,7 +12,6 @@ import { Typography } from "@material-ui/core";
 import styled from "styled-components";
 import Founder from "../images/logo-founder.png";
 import HeroEntertainment from "../images/logo-hero-entertainment.jpg";
-import ChineseAll from "../images/logo-ChineseAll.png";
 
 const CompanyIcon = styled.img`
     height: 40px;
@@ -34,7 +33,7 @@ export default function ExperienceTimeline(props) {
                 </TimelineSeparator>
                 <TimelineContent>
                     <Typography>Position: Product Operations Intern</Typography>
-                    <Typography>Responsibility:</Typography>
+                    <Typography>Responsibility: Design game wireframes.</Typography>
                 </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -48,19 +47,6 @@ export default function ExperienceTimeline(props) {
                 <TimelineContent>
                     <Typography>Position: Product Manager Intern, Business Analysis Intern</Typography>
                     <Typography>Responsibility: Design wireframes of a calligraphy learning & teaching application, Manage the content management system of the application</Typography>
-                </TimelineContent>
-                </TimelineItem>
-                <TimelineItem>
-                <TimelineOppositeContent>
-                    <CompanyIcon src={ChineseAll} />
-                </TimelineOppositeContent>
-                <TimelineSeparator>
-                    <TimelineDot />
-                    <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent>
-                    <Typography>Position: Product Manager Intern, Business Analysis Intern</Typography>
-                    <Typography>Responsibility:</Typography>
                 </TimelineContent>
                 </TimelineItem>
             </Timeline>

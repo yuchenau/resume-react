@@ -8,7 +8,8 @@ import Sidebar from "./components/Sidebar";
 
 const useStyles = makeStyles({
   root: {
-    marginTop: 40,
+    marginTop: 50,
+    marginBottom: 50,
   },
   paper: {
     height: 570,

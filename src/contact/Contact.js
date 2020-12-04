@@ -23,7 +23,6 @@ export default function Contact(props) {
         <div>
             <Grid className={classes.grid} container>
                 <h1 className={classes.h1}>Contact Me</h1>
-                <h2 className={classes.h2}></h2>
             </Grid>
         </div>
     );
